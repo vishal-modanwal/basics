@@ -6,13 +6,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { EmployeeCardComponent } from './employee-card/employee-card.component';
 import { SvayamComponent } from './svayam/svayam.component';
 import { VishalComponent } from './vishal/vishal.component';
+import { CounterComponent } from './counter/counter.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EmployeeCardComponent,
     SvayamComponent,
-    VishalComponent
+    VishalComponent,
+    CounterComponent
   ],
   imports: [
     BrowserModule,
