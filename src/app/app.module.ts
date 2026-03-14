@@ -7,6 +7,7 @@ import { EmployeeCardComponent } from './employee-card/employee-card.component';
 import { SvayamComponent } from './svayam/svayam.component';
 import { VishalComponent } from './vishal/vishal.component';
 import { CounterComponent } from './counter/counter.component';
+import { SetinputComponent } from './setinput/setinput.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CounterComponent } from './counter/counter.component';
     EmployeeCardComponent,
     SvayamComponent,
     VishalComponent,
-    CounterComponent
+    CounterComponent,
+    SetinputComponent
   ],
   imports: [
     BrowserModule,
